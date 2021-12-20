@@ -1,0 +1,12 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin: 30px 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/3;
+    object-fit: cover;
+}
