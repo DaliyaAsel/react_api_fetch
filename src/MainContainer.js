@@ -30,11 +30,13 @@ class MainContainer extends Component {
                     this.state.loading || !this.state.person ? (
                         <div>loading ...</div>
                     ) : (
-                    <div>
+                    <div className="card">
                         <PersonNameApi personName={this.state.person.name.first}/>
                         <div>{this.state.person.name.title}</div>
                         <div>{this.state.person.name.last}</div>
                         <img src={this.state.person.picture.large} />
+                        <p>Это страница разных людей из api</p>
+                        <div onClick={() => window.location.reload()} className="btn-next">&rarr;</div>
                     </div>
                     )}
             </div>

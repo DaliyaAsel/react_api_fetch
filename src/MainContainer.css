@@ -1,6 +1,14 @@
 .mainContainer {
     display: flex;
     justify-content: center;
+    height: auto;
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 1px 1px 10px 10px #ddd;
+    padding: 20px;
+    text-align: center;
 }
 
 img {
@@ -9,4 +17,8 @@ img {
     height: auto;
     aspect-ratio: 3/3;
     object-fit: cover;
+}
+
+.btn-next {
+    cursor: pointer;
 }
