@@ -6,7 +6,6 @@ function PersonNameApi (props) {
     return (
         <div>
             <h2>{personName}</h2>
-
         </div>
     )
 }
